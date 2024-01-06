@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    background: linear-gradient(90deg,
+    rgb(8, 8, 8) 0%,
+    rgb(73, 191, 238) 35%,
+    rgb(165, 230, 255) 100%);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+h3{
+    margin:20px 0;
+}
+select{
+    width:600px;
+    height:50px;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+}
+img{
+    width: 900px;
+    height:470px;
+    margin-top: 30px;
+    border-radius: 20px;
+    
+}
