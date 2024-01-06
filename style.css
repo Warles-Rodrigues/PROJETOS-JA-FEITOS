@@ -34,3 +34,17 @@ img{
     border-radius: 20px;
     
 }
+a{
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+}
+    a:link, a:visited {
+        text-decoration: none
+        }
+    a:hover {
+        text-decoration: underline;
+        color: #f00
+        }
+    a:active {
+        text-decoration: none
+        }
